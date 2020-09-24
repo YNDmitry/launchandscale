@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Launch and Scale</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="assets/site/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="assets/site/css/components.css" rel="stylesheet" type="text/css">
+  <link href="assets/site/css/launch-and-scale.css" rel="stylesheet" type="text/css">
+  <style>@media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="e96fe858-b2bf-1544-f078-89ef748c0ff4"] {-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0DEG) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0DEG) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0DEG) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0DEG) skew(0, 0);background-color:rgb(255,255,255);}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="e96fe858-b2bf-1544-f078-89ef748c0ff4"] {-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0DEG) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0DEG) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0DEG) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0DEG) skew(0, 0);background-color:rgb(255,255,255);}}</style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" rel="stylesheet" type="text/css">
+  <!--  Remodal style  -->
+  <style>
+.remodal-overlay {
+  background: #fff;
+  padding: 0;
+}
+.remodal {
+  background: #fff;
+  width:auto;
+  padding: 0px;
+  margin: 0px;
+  max-width:none;
+}
+</style>
+  <!--  /Remodal style  -->
+  <style>
+.nav .slider {
+opacity:0.5;} /* Затемнение активного слайда */ 
+.sl .nav {
+outline: none !important; /* Убирает синюю обводку */
+transition: all 500ms ease; /* Добавляет анимацию */
+}
+.slick-track {
+height: 360px !important;
+}
+</style>
+</head>
+<body>
+  <header class="header">
+    <div data-collapse="small" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
+      <div class="container-nav"><a href="#" class="brand w-nav-brand"><img src="assets/site/images/laun-logo-head.svg" alt="" class="desktop"><img src="assets/site/images/logo-gray.svg" alt="" class="mobil"></a>
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <div class="mobil-links-wrap"><a href="#s2-main" class="link-nav w-nav-link">Sevices</a><a href="#Clients" class="link-nav w-nav-link">Clients</a><a href="#Contact" class="link-nav w-nav-link">Contact</a><a href="https://calendly.com/yuriy-rosseau/" target="_blank" class="orange-button font-size w-nav-link">Get a Quote</a></div>
+          <div class="contact-wrap">
+            <div class="adress-nav-wrap">
+              <div class="margin-bot-top">
+                <div class="label">Email</div>
+                <div class="txt-18px-normal">hello@launchandscale.net</div>
+              </div>
+              <div>
+                <div class="label">Address</div>
+                <div class="txt-18px-normal">786 King St West, Toronto, Ontario, Canada M5V 1N6</div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="menu-btn w-nav-button">
+          <div data-w-id="e96fe858-b2bf-1544-f078-89ef748c0ff4" class="burger"> </div>
+          <div data-w-id="a9f8b086-81e0-6157-8bc5-23f84ab22b86" class="burger"> </div>
+          <div data-w-id="a2f6c845-1478-199b-5004-6d6ed4140ebb" class="burger last"> </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="s1-main" class="s1-main">
+    <div class="container">
+      <div class="content-wrap size">
+        <h1 class="h1-white">Dev Team<br>Next Door</h1>
+        <p class="p-white">Tech talent when you need it</p><a href="https://calendly.com/yuriy-rosseau/" target="_blank" class="orange-button blick w-button">Free Consultation</a></div>
+      <div class="im-mask hidden"><img src="assets/site/images/vect-r.svg" alt=""></div><a href="#s2-main" data-w-id="9c1bcbd2-9435-cf96-a37e-0c81327bbc01" class="link-down w-inline-block"></a></div>
+  </main>
+  <section id="s2-main" class="s2-main">
+    <div class="container flex-vertical">
+      <div class="algin-center-heading-wrap"><img src="assets/site/images/avatar-main.svg" alt="" class="avatar-im">
+        <h1 class="heading-anim">Launch or Scale?</h1>
+        <p class="margin-top-20px">Tech projects can be split in two - the ones getting started and those already up and running.<br>Each type comes with its own set of challenges and objectives. You know it. We know it too.</p>
+      </div>
+      <div class="content-wrap-flex-hor">
+        <div class="im-mask hidden-mob"><img src="assets/site/images/louncher.png" width="767" srcset="assets/site/images/louncher-p-500.png 500w, assets/site/images/louncher-p-800.png 800w, assets/site/images/louncher-p-1080.png 1080w, assets/site/images/louncher.png 1534w" sizes="(max-width: 479px) 92vw, 100vw" alt=""></div>
+        <div class="content-wrap">
+          <h2 class="heading-2-anim">Launcher</h2>
+          <p class="p-20px">You need to test a new market or idea, and ...</p>
+          <div class="check-list">
+            <div class="check-txt">Want to quickly build an MVP for a specific new product idea</div>
+            <div class="check-txt">Want to keep costs and time-to-market to a minimum</div>
+            <div class="check-txt">Lack access to a high-quality technical team</div>
+          </div>
+          <div class="message-wrap"><img src="assets/site/images/avatar.svg" alt="" class="avatar-im">
+            <div class="message-txt">I can’t spend so much time and money just to test a new market or idea</div>
+          </div>
+        </div>
+        <div class="im-mask hidden"><img src="assets/site/images/louncher.png" width="767" srcset="assets/site/images/louncher-p-500.png 500w, assets/site/images/louncher-p-800.png 800w, assets/site/images/louncher-p-1080.png 1080w, assets/site/images/louncher.png 1534w" sizes="(max-width: 767px) 100vw, 47vw" alt=""></div>
+      </div>
+      <div class="content-wrap-flex-hor">
+        <div class="im-mask"><img src="assets/site/images/scaler.png" width="693" alt=""></div>
+        <div class="content-wrap margin-left">
+          <h2 class="heading-2-anim">Scaler</h2>
+          <p class="p-20px">You have a growing product in the market, and ...<br></p>
+          <div class="check-list">
+            <div class="check-txt">Want to add new features and capabilities</div>
+            <div class="check-txt">Can&#x27;t grow their technical teams fast enough</div>
+            <div class="check-txt">Based in highly overpriced technical talent markets</div>
+          </div>
+          <div class="message-wrap">
+            <div class="message-txt margin-right">I can’t miss growth opportunities just because I can’t quickly hire software developers locally</div><img src="assets/site/images/avata-second.svg" alt="" class="avatar-im"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s3-main">
+    <div class="container flex-vertical">
+      <div class="heading-wrap">
+        <h1 class="heading-anim">How do we work?</h1>
+        <p class="margin-top-20px size-set">We offer service packages that fit the needs of launchers and scalers alike. The key parameters of cost, project scope flexibility, and the client&#x27;s day-to-day involvement are packaged into three packages that fit all situations.</p>
+      </div>
+      <div class="cards-wrap">
+        <div class="card">
+          <div>
+            <h3>MVP</h3>
+            <p class="p-card-margin-bot">Ideal when you have a set project scope that needs to get done as soon as possible on a fixed budget. Ideal for entrepreneurs testing the market with a new idea or rolling out a first version of a new solution.<br></p>
+          </div>
+          <div>
+            <div class="check-list-2">
+              <div class="check-txt-2">Fixed cost</div>
+              <div class="check-txt-2">Fixed scope</div>
+              <div class="check-txt-2">Turnkey delivery</div>
+            </div><a data-remodal-target="modal" href="#" class="orange-button margin-top-auto w-button">More info</a></div>
+        </div>
+        <div class="card">
+          <div>
+            <h3>Pay-per-use</h3>
+            <p class="p-card-margin-bot">This model is ideal for projects where there is less certainty in project scope or there is an ongoing need for technical talent available on a sporadic basis and short notice.<br></p>
+          </div>
+          <div>
+            <div class="check-list-2">
+              <div class="check-txt-2">Hourly billing</div>
+              <div class="check-txt-2">100% flexible scope</div>
+              <div class="check-txt-2">Only pay for what you use</div>
+            </div><a data-remodal-target="modal2" href="#" class="orange-button margin-top-auto w-button">More info</a></div>
+        </div>
+        <div class="card">
+          <div>
+            <h3>Team Extension</h3>
+            <p class="p-card-margin-bot">This model offers complete control over the recruitment and day-to-day management process and fits projects with a medium or long-term product roadmap (6+ months).<br></p>
+          </div>
+          <div>
+            <div class="check-list-2">
+              <div class="check-txt-2">Monthly billing</div>
+              <div class="check-txt-2">Direct managerial control and complete team integration</div>
+              <div class="check-txt-2 last">HR &amp; Operations is on us</div>
+            </div><a data-remodal-target="modal3" href="#" class="orange-button margin-top-auto w-button">More info</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s4-main">
+    <div class="bg-color-black">
+      <div class="grid">
+        <div id="w-node-dfac8a9ab667-361183f5" class="wrap-card-info">
+          <h2 class="h2-white">Our process</h2>
+          <p class="p-gray">These are our principles. They are not just some feel-good bullet points copy-pasted from an airport business book. We&#x27;ve been able to deliver offshore development projects consistently when these rules are followed. <br><br>We&#x27;ve seen how projects fail miserably when these points are not adhered. That is why we share these with you upfront, so you know what to expect from us while we&#x27;re helping you reach your technical objectives.</p>
+        </div>
+        <div id="w-node-61e3d9b5e482-361183f5" class="grid-cards-2">
+          <div class="grid-cards">
+            <div class="card-2">
+              <p class="p-20px-white">You always know what you are paying for</p>
+            </div>
+            <div class="card-2 icon-2">
+              <p class="p-20px-white">You are part of the <br>project team</p>
+            </div>
+            <div class="card-2 icon-3">
+              <p class="p-20px-white">We offer full support<br>after going live</p>
+            </div>
+          </div>
+          <div class="grid-cards">
+            <div class="card-2 icon-4">
+              <p class="p-20px-white">We work in sprints to control project scope</p>
+            </div>
+            <div class="card-2 icon-5">
+              <p class="p-20px-white">We communicate daily using your tools</p>
+            </div>
+            <div class="card-2 icon-6">
+              <p class="p-20px-white">We speak fluent English</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Clients" class="s5-main">
+    <div class="container center">
+      <h2>Teams we&#x27;ve helped</h2>
+    </div>
+    <div class="slider">
+      <div class="sl img-4"></div>
+      <div class="sl img-5"></div>
+      <div class="sl"></div>
+      <div class="sl im-2"></div>
+      <div class="sl img-3"></div>
+      <div class="sl img-6"></div>
+      <div class="sl img-8"></div>
+      <div class="sl img-9"></div>
+    </div>
+    <div class="container flex-vertical algin-center">
+      <div class="fade">
+        <div class="slider-label">Non-profit that connects military veterans struggling with mental trauma to ayahuasca therapy</div>
+        <div class="slider-label">AI solution for social networks to detect toxic content at scale. Was acquired by Airbnb in 2019.</div>
+        <div class="slider-label">Toronto based VPN company that aims to develop easy to use yet powerful tools</div>
+        <div class="slider-label">WayPoint is a golf lifestyle brand that’s providing a fresh new way of delivering golf tournament</div>
+        <div class="slider-label">App Based Wellness Challenges</div>
+        <div class="slider-label">Bitfury is the leading full-service blockchain technology company</div>
+        <div class="slider-label">Switch Creative company of skilled software developers and UX/UI design experts</div>
+        <div class="slider-label">Mentorship platform to support the military community pursue the careers of their dreams</div>
+      </div>
+      <div class="nav">
+        <div class="arrow"></div>
+        <div class="arrow right"></div>
+      </div>
+    </div>
+  </section>
+  <section id="Contact" class="s6-main">
+    <div class="bg-color-black orange-color">
+      <div class="flex-hor">
+        <div class="l-side">
+          <h1>Let&#x27;s talk!<br>Coffee is on us.</h1>
+          <div class="margin-bot-top">
+            <div class="label">Email</div>
+            <div class="txt-18px-normal">hello@launchandscale.net</div>
+          </div>
+          <div>
+            <div class="label">Address</div>
+            <div class="txt-18px-normal">786 King St West, Toronto, <br>Ontario, Canada M5V 1N6</div>
+          </div>
+        </div>
+        <div class="form w-form">
+          <form id="email-form" name="email-form" data-name="Email Form"><input type="text" class="input w-input" maxlength="256" name="name" data-name="Name" placeholder="Name" required=""><input type="email" class="input w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email" required=""><input type="text" class="input w-input" maxlength="256" name="Subject" data-name="Subject" placeholder="Subject" required=""><textarea placeholder="Write something..." maxlength="5000" required="" name="Message" data-name="Message" class="input area w-input"></textarea><input type="submit" value="Send" data-wait="Please wait..." class="submit-btn w-button"></form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+      <div class="wrap-bot-side"><a href="#s1-main" class="w-inline-block"><img src="assets/site/images/laun-logo.svg" alt=""></a>
+        <div class="copyright">© 2020. All rights reserved</div>
+      </div>
+    </div>
+  </section>
+  <div data-remodal-id="modal" class="remodal">
+    <div class="modal-bg">
+      <div class="wrap-modal-content">
+        <h1 class="modal-h-mobil-hidden">Got some ideas for a project?<br>Drop us a line, be glad to hear from you</h1>
+        <h1 class="desktop-hidden">Got some ideas for a project?</h1>
+        <div class="form modal w-form">
+          <form data-name="modal form" name="wf-form-modal-form" id="wf-form-modal-form"><select id="Select" name="Select" data-name="Select" class="input modal select w-select"><option value="MVP">MVP</option><option value="Pay-per-use">Pay-per-use</option><option value="Team Extension">Team Extension</option><option value="Other">Other</option></select>
+            <div class="wrap-input"><input type="text" class="input modal w-input" maxlength="256" name="Company-name" data-name="Company name" placeholder="Name company" required=""><input type="text" class="input modal last w-input" maxlength="256" name="Name-modal" data-name="Name modal" placeholder="Your name" required=""></div>
+            <div class="wrap-input"><input type="email" class="input modal w-input" maxlength="256" name="Email-modal" data-name="Email modal" placeholder="Email" required=""><input type="text" class="input modal last w-input" maxlength="256" name="Number" data-name="Number" placeholder="Phone number" required=""></div><input type="submit" value="Submit" data-wait="Please wait..." class="orange-button modal w-button"></form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+      <div data-remodal-action="close" class="close active"></div>
+    </div>
+  </div>
+  <div data-remodal-id="modal2" class="remodal">
+    <div class="modal-bg">
+      <div class="wrap-modal-content">
+        <h1 class="modal-h-mobil-hidden">Got some ideas for a project?<br>Drop us a line, be glad to hear from you</h1>
+        <h1 class="desktop-hidden">Got some ideas for a project?</h1>
+        <div class="form modal w-form">
+          <form data-name="modal form" name="wf-form-modal-form"><select data-name="Select" name="Select" class="input modal select w-select"><option value="Pay-per-use">Pay-per-use</option><option value="MVP">MVP</option><option value="Team Extension">Team Extension</option><option value="Other">Other</option></select>
+            <div class="wrap-input"><input type="text" class="input modal w-input" maxlength="256" name="Company-Name" data-name="Company Name" placeholder="Name company" required=""><input type="text" class="input modal last w-input" maxlength="256" name="Name-Modal" data-name="Name Modal" placeholder="Your name" required=""></div>
+            <div class="wrap-input"><input type="email" class="input modal w-input" maxlength="256" name="Email-Modal" data-name="Email Modal" placeholder="Email" required=""><input type="text" class="input modal last w-input" maxlength="256" name="Number" data-name="Number" placeholder="Phone number" required=""></div><input type="submit" value="Submit" data-wait="Please wait..." class="orange-button modal w-button"></form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+      <div data-remodal-action="close" class="close active"></div>
+    </div>
+  </div>
+  <div data-remodal-id="modal3" class="remodal">
+    <div class="modal-bg">
+      <div class="wrap-modal-content">
+        <h1 class="modal-h-mobil-hidden">Got some ideas for a project?<br>Drop us a line, be glad to hear from you</h1>
+        <h1 class="desktop-hidden">Got some ideas for a project?</h1>
+        <div class="form modal w-form">
+          <form data-name="modal form" name="wf-form-modal-form"><select data-name="Select" name="Select" class="input modal select w-select"><option value="Team Extension">Team Extension</option><option value="Pay-per-use">Pay-per-use</option><option value="MVP">MVP</option><option value="Other">Other</option></select>
+            <div class="wrap-input"><input type="text" class="input modal w-input" maxlength="256" name="Company-Name" data-name="Company Name" placeholder="Name company" required=""><input type="text" class="input modal last w-input" maxlength="256" name="Name-Modal" data-name="Name Modal" placeholder="Your name" required=""></div>
+            <div class="wrap-input"><input type="email" class="input modal w-input" maxlength="256" name="Email-Modal" data-name="Email Modal" placeholder="Email" required=""><input type="text" class="input modal last w-input" maxlength="256" name="Number" data-name="Number" placeholder="Phone number" required=""></div><input type="submit" value="Submit" data-wait="Please wait..." class="orange-button modal w-button"></form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+      <div data-remodal-action="close" class="close active"></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="assets/site/js/launch-and-scale.js"></script>
+  <script>
+    $('.slider').slick({
+    asNavFor: '.fade',
+  centerMode: true,
+  centerPadding: '120px',
+  slidesToShow: 3,
+  arrows: false,
+  speed: 400,
+  focusOnSelect: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '80px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 680,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '20px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+$('.fade').slick({
+asNavFor: '.slider',
+infinite: true,
+speed: 400,
+fade: true,
+cssEase: 'linear',
+arrows: false,
+swipe: false,
+responsevHeight: true,
+});
+$('.arrow.right').click(function() {
+    $('.slider').slick('slickNext');
+  });
+$('.arrow').click(function() {
+    $('.slider').slick('slickPrev');
+  });
+$('.orange-button.margin-top-auto').click(function() {  
+      $('.close').not(this).removeClass('active');
+  $(this).toggleClass('active');;
+});
+  </script>
+  <script>
+    $(document).ready(function(){
+var scrollTop = 0;
+$(window).scroll(function(){
+scrollTop = $(window).scrollTop();
+if (scrollTop >= 100) {
+$('.header').addClass('show');
+} else if (scrollTop < 100) {
+$('.header').removeClass('show');
+}
+});
+});
+  </script>
+</body>
+</html>
